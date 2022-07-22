@@ -1,12 +1,14 @@
 const container=document.querySelector('#root');
 
-//functional component
-function Clock(){
-    return(
-        <h1>Hello {new Date().toLocaleTimeString()}</h1>
-    );
+//class component
+class Clock extends React.Component{
+    render(){
+        return(
+            <h1>Hello {new Date().toLocaleTimeString()}</h1>
+        );
+    }
 }
-//endfunctional component
+//end class component
 
 const Increment = ()=>{
     const [count,setCount] = React.useState(0); 
