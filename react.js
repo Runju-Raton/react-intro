@@ -1,5 +1,7 @@
-//root container
-console.log(React)
-console.log(ReactDOM)
+const element = (
+    <div>
+        <h1>Learn React, Love React.</h1>
+    </div>
+);
 const container=document.querySelector('#root');
-ReactDOM.render('Hello World!',container);
+ReactDOM.render(element,container);
