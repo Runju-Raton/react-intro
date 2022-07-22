@@ -31,3 +31,6 @@ ReactDOM.render(
     </div>,
 container);
 
+// class component this.props
+// functional component props
+
